@@ -1,0 +1,21 @@
+img{
+box-shadow: 0 0 200px 200px white;
+transform: scale(0.5);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: black;
+}
+
+#mydiv {
+	position: absolute;
+	z-index: 9;
+	background-color: black;
+	cursor: move;
+	top: -4550px;
+	left: -2050px;
+}
